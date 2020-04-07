@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="style1.css" />
+    <!-- font-awesome -->
+    <script src="all.js"></script>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <!-- first child -->
+      <nav class="nav">
+        <!-- nav header -->
+        <div class="nav__header">
+          <span class="nav__btn">
+            <i class="far fa-hand-point-down"></i>
+          </span>
+        </div>
+        <!-- nav links -->
+        <ul class="nav__links">
+          <li>
+            <a href="#header" class="nav__single-link">home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav__single-link">about</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav__single-link">skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="nav__single-link">projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__single-link">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- second shild -->
+      <section class="banner">
+        <!-- banner container -->
+        <div class="banner__container">
+          <h1 class="banner__title">Sheldon Sutherland</h1>
+          <h1 class="banner__jobs job">
+            Front End Developer
+          </h1>
+          <h1 class="banner__jobs msg" >
+            Please view this portfolio on the latest version of chrome to avoid compatibility issues.
+          </h1>
+        </div> 
+      </section>
+    </header>
+    <!-- end header -->
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about__center">
+        <article class="about-img">
+          <img src="img/about-me-1.png" alt="" class="about-img__photo" />
+        </article>
+        <article class="about-info">
+          <div class="about-info__container">
+            <h1 class="about-info__title">about me</h1>
+            <p class="about-info__text">
+              I graduated from the University of Technology with a B.S in
+              Computing. I really enjoy learning new Technologies, as well as
+              coding in my free time. I aim to land a position in which i can utilize my problem solving skills
+               and passion for learning new things.
+            </p>
+
+            <!-- <div class="about-info__links">
+              
+              <a href="#" class="about-info__single-link light-btn"
+                >download Resume</a
+              >
+            </div> -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- end of about section -->
+    <!-- services section -->
+    <section class="services" id="skills">
+      <!-- section title -->
+      <div class="section-title">
+        <h1 class="section-title__name">Programming Skills</h1>
+      </div>
+      <!-- end of section title -->
+      <div class="services__center">
+        <!-- single service -->
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="services__single-service-title">html</h2>
+          <p class="services__single-service-text">
+            Eg. Semantic Html, Basic SEO, Accessibility
+          </p>
+        </article>
+        <!-- end single service -->
+        <!-- single service -->
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h2 class="services__single-service-title">css</h2>
+          <p class="services__single-service-text">
+            Eg. Box Model, Media Queries, CSS Grid, Flex Box
+          </p>
+        </article>
+        <!-- end single service -->
+        <!-- single service -->
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <h2 class="services__single-service-title">javascript</h2>
+          <p class="services__single-service-text">
+            Eg. DOM Manipulation, HTTP/AJAX/JSON, ES6 Javascript
+          </p>
+        </article>
+        <!-- end single service -->
+        <!-- single service -->
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h2 class="services__single-service-title">React</h2>
+          <p class="services__single-service-text">
+            Eg. JSX, API Requests, React Components
+          </p>
+        </article>
+
+        <!-- end single service -->
+        <!-- single service -->
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fab fa-node"></i>
+          </div>
+          <h2 class="services__single-service-title">Nodejs</h2>
+          <p class="services__single-service-text">
+            Eg. Package manager
+          </p>
+        </article>
+        
+        <!-- end single service -->
+      </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- projects section -->
+    <section class="projects" id="projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h1 class="section-title__name">projects</h1>
+      </div>
+      <!-- end of section title -->
+      <div class="projects__center">
+        <!-- single project -->
+        <article class="projects__single-project">
+          <img
+            src="img/web-agency.jpg"
+            alt="portfolio"
+            class="projects__single-project-img"
+          />
+          <a
+            href="https://donsutherland95.github.io/web-agency/"
+            class="projects__single-project-icon"
+          >
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="projects__single-project">
+          <img
+            src="img/car-dealership.jpg"
+            alt="portfolio"
+            class="projects__single-project-img"
+          />
+          <a
+            href="https://donsutherland95.github.io/car-dealership/"
+            class="projects__single-project-icon"
+          >
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="projects__single-project">
+          <img
+            src="img/zomato.jpg"
+            alt="portfolio"
+            class="projects__single-project-img"
+          />
+          <a
+            href="https://donsutherland95.github.io/zomato/"
+            class="projects__single-project-icon"
+          >
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+
+        <!-- end of single project -->
+        <!-- single project -->
+        <article class="projects__single-project">
+          <img
+            src="img/resort.jpg"
+            alt="portfolio"
+            class="projects__single-project-img"
+          />
+          <a href="https://donsutherland95.github.io/hotel-inn/" class="projects__single-project-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+
+        <!-- end of single project -->
+        
+      </div>
+    
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <!-- section title -->
+      <div class="section-title">
+        <h1 class="section-title__name">contact</h1>
+      </div>
+      <!-- end of section title -->
+      <!-- single service -->
+      
+
+    
+        <h2 class="contact__info">Phone: (919) 937-4876  </h2>
+        <h2 class="contact__info">
+                Email: ss.sutherland17@gmail.com
+        </h2>
+    
+      
+
+
+      <!-- end single service -->
+    </section>
+    <!-- end of contact section -->
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
